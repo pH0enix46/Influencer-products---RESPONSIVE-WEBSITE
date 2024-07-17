@@ -1,0 +1,168 @@
+@media screen and (max-width: 56.25em) {
+  .header nav ul li a {
+    font-size: 1.2rem;
+  }
+
+  .header nav ul {
+    gap: 1.6rem;
+  }
+
+  .hero {
+    max-width: 70rem;
+  }
+
+  .hero-contenct h1 {
+    font-size: 3rem;
+  }
+
+  .hero-contenct p {
+    font-size: 1.4rem;
+  }
+
+  .hero-btn:link,
+  .hero-btn:visited {
+    font-size: 1.6rem;
+    padding: 1rem 1.4rem;
+    border-radius: 0.6rem;
+  }
+
+  .sponsor img {
+    height: 2rem;
+  }
+
+  .section-collection {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 50em) {
+  .header h2 {
+    font-size: 1.8rem;
+  }
+
+  .header nav ul li a {
+    font-size: 1.4rem;
+  }
+
+  .header nav ul {
+    gap: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  .header h2 {
+    font-size: 1.6rem;
+  }
+
+  .header nav ul li a {
+    font-size: 1.2rem;
+  }
+
+  .header nav ul {
+    gap: 0.8rem;
+  }
+
+  .main-nav-icon {
+    gap: 2rem;
+  }
+
+  .hero {
+    max-width: 50rem;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-contenct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-contenct h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .hero-contenct p {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .hero-btn:link,
+  .hero-btn:visited {
+    font-size: 1.6rem;
+    padding: 1rem 1.4rem;
+    border-radius: 0.6rem;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer h3 {
+    font-size: 2.2rem;
+  }
+
+  .footer span {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 26.875em) {
+  .hero-contenct h1 {
+    font-size: 3rem;
+  }
+
+  .hero-contenct p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .hero-btn:link,
+  .hero-btn:visited {
+    font-size: 1.4rem;
+    padding: 1rem 1rem;
+    border-radius: 0.6rem;
+  }
+
+  .hero-img {
+    order: -1;
+  }
+
+  .header h2 {
+    font-size: 1.2rem;
+  }
+
+  .header nav ul li a {
+    font-size: 0.8rem;
+  }
+
+  .header nav ul {
+    gap: 1rem;
+  }
+
+  .main-nav-icon {
+    gap: 1rem;
+  }
+
+  .main-nav-icon ion-icon {
+    font-size: 1.2rem;
+  }
+
+  .sponsor {
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-img {
+    background-image: url(../resources/logos/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

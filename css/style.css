@@ -203,4 +203,45 @@ body {
 .product-rate {
   font-size: 1.2rem;
 }
+
+.see-more {
+  text-align: right;
+  margin-top: 2rem;
+}
+
+.see-more a {
+  font-size: 2rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  padding-right: 2rem;
+}
+/* ⛔️⛔️⛔️ */
+
+/* FOOTER✅✅✅ */
+
+.footer {
+  background-color: rgba(2, 2, 98, 0.9);
+  padding: 3rem 0;
+  margin-top: 6rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer h3 {
+  font-size: 3rem;
+}
+
+.footer span {
+  font-size: 1.4rem;
+}
 /* ⛔️⛔️⛔️ */
