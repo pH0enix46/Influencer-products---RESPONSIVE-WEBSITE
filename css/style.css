@@ -1,0 +1,116 @@
+/* DEFAULT✅✅✅ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik";
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+/* ⛔️⛔️⛔️ */
+
+/* REUSABLE✅✅✅ */
+/* ⛔️⛔️⛔️ */
+
+/* HEADER✅✅✅ */
+.header {
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.header h2 {
+  font-size: 2.6rem;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.header nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.main-nav-icon {
+  display: flex;
+  gap: 3rem;
+}
+
+.main-nav-icon ion-icon {
+  font-size: 3rem;
+  color: rgba(0, 0, 255, 0.8);
+}
+/* ⛔️⛔️⛔️ */
+
+/* HERO✅✅✅ */
+.section-hero {
+  padding: 4.8rem 0 9.6rem 0;
+  background-color: rgb(245, 245, 245);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.4);
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-contenct h1 {
+  font-size: 3.6rem;
+  margin-bottom: 1.6rem;
+  font-weight: 800;
+}
+
+.hero-contenct p {
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.hero-img img {
+  width: 95%;
+}
+
+.hero-btn:link,
+.hero-btn:visited {
+  background-color: #e67e22;
+  color: #fff;
+  text-shadow: 0 0.4rem 0.3rem rgba(255, 0, 0, 0.5);
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1.6rem 2.4rem;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+  color: #fdf2e9;
+  box-shadow: 0 0 0 0.3rem #ff6b6b;
+}
+/* ⛔️⛔️⛔️ */
